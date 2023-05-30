@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .container {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .balance,
+  .transactions,
+  .form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transactions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transactions li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .transactions .date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .transactions .description {
+    font-weight: bold;
+  }
+  
+  .transactions .amount {
+    color: green;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="date"],
+  input[type="text"],
+  input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
